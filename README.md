@@ -30,7 +30,7 @@ Then just open `index.html` in your browser — no setup required.
 <br>
 
 ### 📸 Demo
-Live Demo [(GitHub Pages link)](https://github.com/Revou-Coding-Camp/codingcamp-04-aug-25-raihanazhar05)
+Live Demo [(GitHub Pages)](https://revou-coding-camp.github.io/codingcamp-04-aug-25-raihanazhar05/)
 
 <br>
 

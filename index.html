@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple To-Do List App</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>To-Do List</h1>
+
+    <label class="dark-mode-toggle">
+    <input type="checkbox" id="dark-toggle">
+    Dark Mode
+    </label>
+
+    <!-- Task Form -->
+    <form id="todo-form">
+      <input type="text" id="todo-input" placeholder="Enter your task" required />
+      <input type="date" id="date-input" required />
+      <textarea id="desc-input" placeholder="Add a description (optional)"></textarea>
+      <button type="submit">Add Task</button>
+    </form>
+
+    <!-- Filter Input -->
+    <input type="text" id="filter-input" placeholder="Filter tasks..." />
+
+    <!-- Sort Controls -->
+    <div id="sort-controls">
+    <label for="sort-by">Sort By:</label>
+    <select id="sort-by">
+        <option value="date">Date</option>
+        <option value="status">Status</option>
+    </select>
+
+    <label for="sort-order">Order:</label>
+    <select id="sort-order">
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+    </select>
+    </div>
+
+    <!-- Task List -->
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
